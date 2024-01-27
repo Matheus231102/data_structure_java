@@ -2,6 +2,9 @@ package data_structure;
 
 import javax.swing.*;
 
+import static data_structure.tools.Tools.isPar;
+import static data_structure.tools.Tools.vetorConvertido;
+
 public class ExemploEstruturaIndexada6_2 {
     // entrada de 10 elementos no vetor1, criar vetor2 baseado no vetor1
     // se valor do índice for par deverá ser multiplicado por 5
@@ -20,8 +23,8 @@ public class ExemploEstruturaIndexada6_2 {
 
             for (int i = 0; i < tamanhoVetor; i++) {
                 if (isPar((float) i)) {
-                    vetor2[i] = vetor1[i] * 5;
                 } else {
+                    vetor2[i] = vetor1[i] * 5;
                     vetor2[i] = vetor1[i] + 5;
                 }
             }
@@ -32,18 +35,5 @@ public class ExemploEstruturaIndexada6_2 {
         }
     }
 
-    private static boolean isPar(Float number) {
-        if (number % 2 == 0) {
-            return true;
-        } else { return false; }
-    }
-
-    private static String vetorConvertido(float[] vetor) {
-        StringBuilder string = new StringBuilder();
-        for (Number number : vetor) {
-            string = string.append(number).append(", ");
-        }
-        return string.toString();
-    }
 
 }
