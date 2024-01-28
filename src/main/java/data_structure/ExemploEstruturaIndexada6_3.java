@@ -21,7 +21,7 @@ public class ExemploEstruturaIndexada6_3 {
             System.out.println("Ocorreu um erro ao definir elementos no vetor!");
             System.out.println(e);
         }
-
+        
         float somaElementos = somarVetor(vetor);
         System.out.println(somaElementos);
     }
