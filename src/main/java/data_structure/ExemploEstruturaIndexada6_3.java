@@ -2,6 +2,8 @@ package data_structure;
 
 import javax.swing.JOptionPane;
 
+import static data_structure.tools.Tools.vetorConvertido;
+
 public class ExemploEstruturaIndexada6_3 {
     // realizar a leitura de 5 elementos e somalos no final
     public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class ExemploEstruturaIndexada6_3 {
                 vetor[i] = Float.parseFloat(num);
             }
             float somaImparesVetor = somarElementosImpares(vetor);
-            JOptionPane.showMessageDialog(null, "A soma dos elementos ímpares dentro do vetor \n" + somaImparesVetor);
+            JOptionPane.showMessageDialog(null, "A soma dos elementos ímpares dentro do vetor \n" + vetorConvertido(vetor) + "\n" + "soma: " + somaImparesVetor);
         } catch (Exception e) {
             System.out.println("Ocorreu um erro ao definir elementos no vetor!");
             System.out.println(e);
