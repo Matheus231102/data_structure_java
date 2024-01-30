@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.estruturaIndexada;
 
 import javax.swing.*;
 public class ExemploEstruturaIndexada6_4_1 {
