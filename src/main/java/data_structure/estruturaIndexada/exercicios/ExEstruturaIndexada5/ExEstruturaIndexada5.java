@@ -1,8 +1,6 @@
 package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class ExEstruturaIndexada5 {
 
@@ -34,7 +32,7 @@ public class ExEstruturaIndexada5 {
             if (i == 0) {
                 maiorTemperatura = vetor[0];
             } else {
-                if (vetor[i].getTemperatura() > vetor[i - 1].getTemperatura()) {
+                if (vetor[i].getTemperatura() >= vetor[i - 1].getTemperatura()) {
                     maiorTemperatura = vetor[i];
                 }
             }
@@ -42,7 +40,7 @@ public class ExEstruturaIndexada5 {
         }
 
         return maiorTemperatura;
-    };
+    }
 
     private static TemperaturaDiaSemana pegarMenorTemperatura(TemperaturaDiaSemana[] vetor) {
         TemperaturaDiaSemana menorTemperatura = null;
@@ -52,7 +50,7 @@ public class ExEstruturaIndexada5 {
             if (i == 0) {
                 menorTemperatura = vetor[0];
             } else {
-                if (vetor[i].getTemperatura() < vetor[i - 1].getTemperatura()) {
+                if (vetor[i].getTemperatura() <= vetor[i - 1].getTemperatura()) {
                     menorTemperatura = vetor[i];
                 }
             }
@@ -60,7 +58,7 @@ public class ExEstruturaIndexada5 {
         }
 
         return menorTemperatura;
-    };
+    }
 
 
 }
