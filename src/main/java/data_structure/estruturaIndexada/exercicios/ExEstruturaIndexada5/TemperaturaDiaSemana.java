@@ -1,7 +1,5 @@
 package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
 
-import org.jetbrains.annotations.NotNull;
-
 public class TemperaturaDiaSemana {
     private String dia;
     private Double temperatura;
