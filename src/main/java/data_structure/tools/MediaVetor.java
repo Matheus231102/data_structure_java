@@ -1,4 +1,4 @@
-package data_structure.estruturaIndexada.exercicios;
+package data_structure.tools;
 
 import java.util.Arrays;
 

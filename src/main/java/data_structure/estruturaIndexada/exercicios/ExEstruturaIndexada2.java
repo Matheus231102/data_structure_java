@@ -1,8 +1,9 @@
 package data_structure.estruturaIndexada.exercicios;
 
+import data_structure.tools.MediaVetor;
+
 import javax.swing.*;
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class ExEstruturaIndexada2 {
 

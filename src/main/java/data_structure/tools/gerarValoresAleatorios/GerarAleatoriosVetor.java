@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class GerarAleatoriosVetor {
 
-    public static int[] gerarAleatorios(int[] vetor, int valorMaximoGerado) throws ParametroInvalidoException {
+    public static int[] preencherVetorUnico(int[] vetor, int valorMaximoGerado) throws ParametroInvalidoException {
         if (valorMaximoGerado == 0) {
             Arrays.fill(vetor, 0);
             return vetor;
@@ -21,6 +21,13 @@ public class GerarAleatoriosVetor {
 
             return vetor;
         }
+    }
+
+    public static int[][] preencherMatrizUnica(int[][] matrizMultipla, int valorMaximoGeradoPorMatriz) throws ParametroInvalidoException {
+        for (int[] matriz : matrizMultipla) {
+            preencherVetorUnico(matriz, valorMaximoGeradoPorMatriz);
+        }
+        return matrizMultipla;
     }
 
 }

@@ -14,8 +14,8 @@ public class ExEstruturaIndexada9 {
         int[] vetorB = new int[tamanhoPadrao];
         int[] vetorC = new int[tamanhoPadrao];
 
-        GerarAleatoriosVetor.gerarAleatorios(vetorA, 20);
-        GerarAleatoriosVetor.gerarAleatorios(vetorB, 20);
+        GerarAleatoriosVetor.preencherVetorUnico(vetorA, 20);
+        GerarAleatoriosVetor.preencherVetorUnico(vetorB, 20);
 
         System.out.println(Arrays.toString(vetorA));
         System.out.println(Arrays.toString(vetorB));

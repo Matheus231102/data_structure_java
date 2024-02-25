@@ -1,6 +1,6 @@
 package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
 
-import data_structure.estruturaIndexada.exercicios.TemperaturaDiaSemana;
+import data_structure.estruturaIndexada.exercicios.teste.TemperaturaDiaSemana;
 
 import java.util.ArrayList;
 
