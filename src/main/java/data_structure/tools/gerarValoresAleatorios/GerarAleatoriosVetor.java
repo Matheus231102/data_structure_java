@@ -5,18 +5,6 @@ import java.util.Random;
 
 public class GerarAleatoriosVetor {
 
-    public static void main(String[] args) throws ParametroInvalidoException {
-        int[] vetorTeste = new int[10];
-        gerarAleatorios(vetorTeste, 50);
-        System.out.println(Arrays.toString(vetorTeste));
-
-        gerarAleatorios(vetorTeste, 0);
-        System.out.println(Arrays.toString(vetorTeste));
-
-        gerarAleatorios(vetorTeste, 10);
-        System.out.println(Arrays.toString(vetorTeste));
-    }
-
     public static int[] gerarAleatorios(int[] vetor, int valorMaximoGerado) throws ParametroInvalidoException {
         if (valorMaximoGerado == 0) {
             Arrays.fill(vetor, 0);
