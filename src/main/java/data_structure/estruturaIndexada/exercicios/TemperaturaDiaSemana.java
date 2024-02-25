@@ -1,4 +1,4 @@
-package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
+package data_structure.estruturaIndexada.exercicios;
 
 public class TemperaturaDiaSemana {
     private String dia;

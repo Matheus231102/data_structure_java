@@ -1,5 +1,7 @@
 package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
 
+import data_structure.estruturaIndexada.exercicios.TemperaturaDiaSemana;
+
 import java.util.ArrayList;
 
 public class ExEstruturaIndexada5_1 {

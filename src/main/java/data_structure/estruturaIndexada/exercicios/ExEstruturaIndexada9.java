@@ -1,6 +1,5 @@
-package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
+package data_structure.estruturaIndexada.exercicios;
 
-import data_structure.tools.BubbleSort;
 import data_structure.tools.gerarValoresAleatorios.GerarAleatoriosVetor;
 import data_structure.tools.gerarValoresAleatorios.ParametroInvalidoException;
 

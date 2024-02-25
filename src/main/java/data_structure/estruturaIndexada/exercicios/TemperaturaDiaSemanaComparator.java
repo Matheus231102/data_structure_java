@@ -1,4 +1,6 @@
-package data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5;
+package data_structure.estruturaIndexada.exercicios;
+
+import data_structure.estruturaIndexada.exercicios.TemperaturaDiaSemana;
 
 import java.util.Comparator;
 

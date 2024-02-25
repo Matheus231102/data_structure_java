@@ -1,7 +1,5 @@
 package data_structure.estruturaIndexada.exercicios;
 
-import data_structure.estruturaIndexada.exercicios.ExEstruturaIndexada5.TemperaturaDiaSemana;
-
 public class ExEstruturaIndexada7Histograma {
 
     public static void main(String[] args) {
