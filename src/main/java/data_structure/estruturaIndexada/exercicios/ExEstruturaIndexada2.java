@@ -28,13 +28,13 @@ public class ExEstruturaIndexada2 {
 
         }
 
-        MediaVetor<Double> mediaDouble = new MediaVetor<Double>();
+        MediaVetor<Double> mediaDouble = new MediaVetor<>();
         double mediaTemperaturaSemanal = mediaDouble.calcularMediaVetor(temperaturaSemanal);
 
         int diasAcimaDaMediaSemanal = 0;
         diasAcimaDaMediaSemanal = (int) Arrays.stream(temperaturaSemanal)
                 .filter(valor -> {
-                    return valor > mediaTemperaturaSemanal ? true : false;
+                    return valor > mediaTemperaturaSemanal;
                 })
                 .count();
 

@@ -12,6 +12,6 @@ public class MediaVetor<E extends Number> {
                 .sum();
 
         return somaTotalVetor / quantidadeElementosVetor;
-    };
+    }
 
 }

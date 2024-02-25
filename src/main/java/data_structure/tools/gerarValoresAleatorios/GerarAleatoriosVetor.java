@@ -18,7 +18,6 @@ public class GerarAleatoriosVetor {
             for (int i = 0; i < tamanhoVetor; i++) {
                 vetor[i] = random.nextInt(valorMaximoGerado);
             }
-
             return vetor;
         }
     }
